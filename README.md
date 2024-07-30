@@ -6,7 +6,7 @@
 
 ### Overview
 
-Hello, my friends! This is an advanced form validation tutorial using JavaScript. The JS code is designed especially for beginners. The logic for validation is straightforward but somewhat verbose, with nested loops and multiple if-else conditions increasing the complexity.
+Hello, my friends! This is an advanced form validation sample using JavaScript. The JS code is designed especially for beginners. The logic for validation is straightforward but somewhat verbose, with nested loops and multiple if-else conditions increasing the complexity.
 
 Additionally, the code uses only one function, making it longer and less readable. However, the logic is simple and does not use any regex. Instead, it employs custom syntaxes for validation with an array, allowing you to easily modify the symbols as needed.
 
