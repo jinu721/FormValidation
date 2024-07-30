@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Custom;
+    src: url(../font/custom.ttf);
+}
+
+*{
+    font-family: Custom;
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-profile{
+
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 50px 0px;
+}
+.img-profile{
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.img-add{
+
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin: 25px 0px 0px 0px ;
+    filter: invert(1) ;
+}
+form{
+
+    display: flex;
+    flex-direction: column;
+}
+label{
+
+    margin: 10px 0px 10px 0px;
+    font-size: 15px;
+    
+}
+input{
+
+    width: 300px;
+    height: 23px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: solid 1px rgb(102, 103, 103) ;
+    outline: none;
+}
+input::placeholder{
+
+    font-size: 13px;
+}
+button{
+
+    height: 35px;
+    margin: 20px 0px 80px 0px ;
+    background: rgb(0, 51, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+
+    background:rgba(0, 51, 255, 0.741) ;
+}
+
+#alert{
+
+    display: none;
+    width: auto;
+    height: 25px;
+    background: rgb(189, 0, 0);
+    border-radius: 20px;
+}
+#alert p{
+
+    font-size: 12px;
+    color: white;
+    margin: 5px 10px 0px 10px;
+}

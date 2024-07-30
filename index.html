@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="bg" >
+        <!-- main form -->
+        <div class="form" >
+            <form action="">
+                <label for="nickname">Nickname</label>
+                <input class="inp" placeholder="Your Nickname" type="text" name="nickname" id="inp-nickname">
+                <label for="username">Username</label>
+                <input class="inp" placeholder="Your Username" type="text" name="username" id="inp-username">
+                <label for="email">Email</label>
+                <input class="inp" placeholder="Your Email" type="email" name="email" id="inp-email">
+                <label for="password">Password</label>
+                <input class="inp" placeholder="Your password" type="password" name="password" id="inp-password">
+                <button id="button-submit" onclick="event.preventDefault(); display();" >Submit</button>
+            </form>
+        </div>
+        <!-- alert box -->
+        <div id="alert" >
+            <p id="txt-alert" >alert message</p>
+        </div>
+    </div>
+
+    <script src="js/main.js" ></script>
+</body>
+</html>
